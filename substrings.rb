@@ -1,5 +1,5 @@
-def substrings(word, dictionary)
-  words = word.downcase.split
+def substrings(text, dictionary)
+  words = text.downcase.split
   hash_result = Hash.new(0)
   for word in words
     dictionary.each do |string|
